@@ -9,3 +9,10 @@ torchvision    # Needed for PyTorch image processing
 torchaudio     # Needed for PyTorch audio processing
 tensorflow-macos  # TensorFlow version optimized for macOS
 tensorflow-metal  # Metal plugin for TensorFlow GPU acceleration
+
+# Jupyter
+jupyter        # Jupyter notebook and console
+ipykernel      # Kernel for Jupyter
+matplotlib     # Plotting library for Jupyter
+seaborn        # Statistical data visualization for Jupyter
+scikit-learn   # For deep learning models, feature engineering, etc.
