@@ -1,10 +1,17 @@
-# 1. install requiremnents
+# 1. Create own virual environment and call it gpt_venv
+'''
+python3 -m venv gpt_venv
+source gpt_venv/bin/activate
+'''
+# This should show youre gpt_venv by your path in the terminal before every new line
+
+# 2. install requiremnents
 ''''
 pip install -r requiremnts.txt
 '''
 
 
-# 2. Test if GPU is working...
+# 3. Test if GPU is working...
 '''
 import tensorflow as tf
 print("TensorFlow version:", tf.__version__)
@@ -22,7 +29,7 @@ print("Matrix multiplication complete!")
 # if It has "Matrix multiplication complete!" at the end then it works and your device is all set!
 
 
-# 3. Check if PyTorch's Metal backend (MPS) is available for GPU acceleration on macOS.
+# 4.. Check if PyTorch's Metal backend (MPS) is available for GPU acceleration on macOS.
 '''
 import torch
 print(torch.backends.mps.is_available())  # Should print True

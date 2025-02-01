@@ -1,6 +1,5 @@
 # Core libraries
 torch           # PyTorch (will need MPS support)
-pylzma         # LZMA compression support
 tokenizers     # Fast tokenization for NLP
 tqdm           # Progress bar utility
 transformers   # Hugging Face's Transformer models
