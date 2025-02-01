@@ -1,0 +1,12 @@
+# Core libraries
+torch           # PyTorch (will need MPS support)
+pylzma         # LZMA compression support
+tokenizers     # Fast tokenization for NLP
+tqdm           # Progress bar utility
+transformers   # Hugging Face's Transformer models
+
+# Apple Metal GPU Acceleration
+torchvision    # Needed for PyTorch image processing
+torchaudio     # Needed for PyTorch audio processing
+tensorflow-macos  # TensorFlow version optimized for macOS
+tensorflow-metal  # Metal plugin for TensorFlow GPU acceleration
